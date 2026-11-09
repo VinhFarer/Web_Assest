@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-au">
+<head>
+    <title>Search</title>
+    <meta charset="UTF-8">
+<link rel="stylesheet" href="css/web_style.css">
+</head>
+
+<body>
+
+<div class="myLogo">
+<a href="index.html"><img src="images/TipToe_Soles_Logo_colour.png" alt="TipToe Logo" width="150" height="150"></a>
+</div>
+
+<div class="myHeader">
+<img src="images/TipToe_1665x150.png" alt="TipToe Banner" width="1665" height="150">
+</div>
+
+<div class="statement">
+    TipToe Soles provide affordable footwear branh in Australia and around the world
+</div>
+
+<div class="left_panel">
+<h1>MENU</h1>
+  <a href="AboutUs.html">About Us</a><br>
+  <a href="ContactUs.html">Contact Us</a><br>
+  <button class="dropdown-btn">Products &nbsp;&nbsp;&nbsp;&#9660;</button>
+  <div class="dropdown-container">
+    <a href="men.html">Product 1: Men Shoes</a><p></p>
+    <a href="women.html">Product 2: Ladies shoes</a><p></p>
+  </div>
+  <a href="search.html">Search</a><br>
+  <a href="login.html">Login</a>
+</div>
+
+<div class="content2">
+<h2>Search Page</h2>
+<form action="">
+<label for="fname">Search:</label>&nbsp;&nbsp;
+<input type="text" id="fname" name="fname" valur=""><br><br>
+<input type="submit" value="Submit">
+<p>If you click the "Submit" button, the form-data will be sent for processing".</p>
+</form>
+</div>
+
+<div class="myFooter"><table align="center"><tr><td>
+<h2>Organization Policies</h2>
+<p><a href="returns&exchange.html">Returns and Exchange Policies</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="Deliveries.html">Deliviey Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="NoCopyright.html">Copyright Rules</a></p>
+</td><td>
+
+</td></tr></table>
+
+<h2>Social Media</h2>
+<p><a href="https://www.facebook.comFacebook">FaceBook</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com">Youtube</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/www.instagram.comInstagram">Instagram</a></p>
+</div>
+
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>

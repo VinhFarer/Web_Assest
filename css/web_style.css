@@ -1,0 +1,146 @@
+.myLogo {
+    width: 150px;
+    padding: 5px;
+    background-color: #1E40AF;
+    height: 150px;
+    float:left;
+    margin: 0px;
+}
+
+.myHeader {
+    width: 88.5%;
+    padding: 5px;
+    background-color: #60A5FA;
+    height: 150px;
+    margin: 0px;
+    float:left
+}
+
+.statement {
+    width: 97%;
+    height: 30px;
+    padding: 5px;
+    background-color: #38BDF8;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+.left_panel {
+    width: 10%;
+    padding: 5px;
+    background-color: #0F766E;
+    height: 500px;
+    margin: 5px;
+    float:left;
+    text-align: center;
+    color: white;
+}
+.left_panel a:link {
+color: white;
+text-decoration: none;
+}
+.left_panel a:visited {
+color: #B8F5FF;
+}
+.left_panel a:hover {
+color: yellow;
+text-decoration: underline;
+}
+
+.content2 {
+    width: 85.5%;
+    padding: 5px;
+    background-color: #A7F3D0;
+    height: 500px;
+    margin: 5px;
+    float: left;
+    text-align: center;
+    color: #1F2937;
+}
+.myFooter {
+    width: 96.5%;
+    padding: 5px;
+    background-color: #14B8A6;
+    height: 200px;
+    margin: 5px;
+    float:left;
+    text-align: center;
+    color: white;
+}
+a:link {
+    color: rgb(5, 71, 5);
+    text-decoration: none;
+}
+a:visited {
+    color: aqua;
+    text-decoration: none;
+}
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: relative;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: yellow;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: green;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+  z-index: 1;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

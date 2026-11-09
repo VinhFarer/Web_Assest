@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-au">
+<head>
+    <title>Men Shoes</title>
+    <meta charset="UTF-8">
+<link rel="stylesheet" href="css/web_style.css">
+</head>
+
+<body>
+
+<div class="myLogo">
+<a href="index.html"><img src="images/TipToe_Soles_Logo_colour.png" alt="TipToe Logo" width="150" height="150"></a>
+</div>
+
+<div class="myHeader">
+<img src="images/TipToe_1665x150.png" alt="TipToe Banner" width="1665" height="150">
+</div>
+
+<div class="statement">
+    TipToe Soles provide affordable footwear branh in Australia and around the world
+</div>
+
+<div class="left_panel">
+<h1>MENU</h1>
+  <a href="AboutUs.html">About Us</a><br>
+  <a href="ContactUs.html">Contact Us</a><br>
+  <button class="dropdown-btn">Products &nbsp;&nbsp;&nbsp;&#9660;</button>
+  <div class="dropdown-container">
+    <a href="men.html">Product 1: Men Shoes</a><p></p>
+    <a href="women.html">Product 2: Ladies shoes</a><p></p>
+  </div>
+  <a href="search.html">Search</a><br>
+  <a href="login.html">Login</a>
+</div>
+
+<div class="content2">
+<h2>Men Shoes</h2>
+<table align="center">
+  <tr><td><b>Gary Black</b></td></tr>
+<tr><td><img src="images/Gary_Black.jpg" alt="Gary Black" width="400" height="150"></td>
+<td align="left">
+<b>Product Name:	 GARY</b><br>
+Colours:  	Tan and midnight<br>
+Sizes: 		US 6,7, 8, 9, 10,11<br>
+Price:		$79.00<br>
+</p></td></tr>
+<tr><td align ="left"><b>Feel great in these comfort sneakers you won't want to take off.</b><br>
+<ul>
+<li>Soft leather uppers</li>
+<li>Breathable mesh lining</li>
+<li>Removable footbed with soft mesh sock lining</li>
+<li>Contoured footbed with additional heel padding</li>
+<li>Orthotic friendly</li>
+</p></ul></td>
+<td>
+ <b>Materials & Details</b>
+ <ul>
+<li>Product Code: 30213</li>
+<li>Sole Material: Rubber</li>
+<li>Sock Material: Synthetic</li>
+<li>Lining Material: Eco friendly</li>
+<li>Upper Material: Leather</li>
+</p></td></tr>
+</table>
+
+<p><table align="center">
+  <tr><td><b>Work and Walk</b></td></tr>
+<tr><td><img src="images/Work_and_Walk_Chesnut.jpg" alt="Work & Walk" width="400" height="150"></td>
+<td align="left">
+<b>Product Name:	 WORK & WALK</b><br>
+Colours:  	Chesnut<br>
+Sizes: 		US 6,7, 8, 9, 10,11<br>
+Price:		$85.00<br>
+</p></td></tr>
+<tr><td align ="left"><b>Are built for long days on your feet.</b><br>
+<ul>
+<li>Upper is scuff, stain & water-resistant</li>
+<li>Breathable & soft foam backed mesh lining</li>
+<li>Padded collar is super soft on the heel</li>
+<li>Pull-tab for easy fitting</li>
+<li>Metal eyelet detail</li>
+<li>Footbed hugs your heel for extra support</li>
+<li>Removable insole to fit your own orthotics</li>
+<li>Dual Fit. Remove the insole for a wider fit</li>
+</p></ul></td>
+<td>
+ <b>Materials & Details</b>
+ <ul>
+<li>Product Code: 30144</li>
+<li>Sole Material: Rubber</li>
+<li>Sock Material: Pigskin</li>
+<li>Lining Material: Mesh</li>
+<li>Upper Material: Leather</li>
+</p></td></tr>
+</table></p>
+
+<br><br>
+<p>The most recommended place to find shoes for mens of all type</p>
+</div>
+
+<div class="myFooter"><table align="center"><tr><td>
+<h2>Organization Policies</h2>
+<p><a href="returns&exchange.html">Returns and Exchange Policies</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="Deliveries.html">Deliviey Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="NoCopyright.html">Copyright Rules</a></p>
+</td><td>
+
+</td></tr></table>
+
+<h2>Social Media</h2>
+<p><a href="https://www.facebook.comFacebook">FaceBook</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com">Youtube</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/www.instagram.comInstagram">Instagram</a></p>
+</div>
+
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>

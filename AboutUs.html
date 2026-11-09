@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-au">
+<head>
+    <title>About Us</title>
+    <meta charset="UTF-8">
+<link rel="stylesheet" href="css/web_style.css">
+</head>
+
+<body>
+
+<div class="myLogo">
+<a href="index.html"><img src="images/TipToe_Soles_Logo_colour.png" alt="TipToe Logo" width="150" height="150"></a>
+</div>
+
+<div class="myHeader">
+<img src="images/TipToe_1665x150.png" alt="TipToe Banner" width="1665" height="150">
+</div>
+
+<div class="statement">
+    TipToe Soles provide affordable footwear branh in Australia and around the world
+</div>
+
+<div class="left_panel">
+<h1>MENU</h1>
+  <a href="AboutUs.html">About Us</a><br>
+  <a href="ContactUs.html">Contact Us</a><br>
+  <button class="dropdown-btn">Products &nbsp;&nbsp;&nbsp;&#9660;</button>
+  <div class="dropdown-container">
+    <a href="men.html">Product 1: Men Shoes</a><p></p>
+    <a href="women.html">Product 2: Ladies shoes</a><p></p>
+  </div>
+  <a href="search.html">Search</a><br>
+  <a href="login.html">Login</a>
+</div>
+
+<div class="content2">
+<h2>Information About Us</h2>
+
+<p>
+    TipToe Soles is an Australian owned and operated footwear company dedicated
+    to providing comfortable, stylish, and affordable shoes for customers in
+    Australia and around the world.
+</p>
+
+<p>
+    Our goal is to become the go-to affordable footwear brand by offering
+    quality comfort and daily-wear shoes for men and women. We focus on
+    products that combine comfort, durability, and value.
+</p>
+
+<p>
+    At TipToe Soles, customer satisfaction is our priority. We provide a range
+    of footwear designed for everyday use, ensuring our customers enjoy both
+    comfort and style wherever they go.
+</p>
+
+<h3>Why Choose TipToe Soles?</h3>
+
+<ul style="text-align:left; width:80%; margin:auto; color:black;">
+    <li>Australian owned and operated company</li>
+    <li>Affordable and comfortable footwear</li>
+    <li>Quality products for men and women</li>
+    <li>Reliable delivery across Australia</li>
+    <li>Friendly customer service and support</li>
+</ul>
+
+<h3>Our Mission</h3>
+
+<p>
+    To provide comfortable footwear at affordable prices while delivering
+    excellent service to customers locally and internationally.
+</p>
+</div>
+
+<div class="myFooter"><table align="center"><tr><td>
+
+<h2>Organization Policies</h2>
+<p><a href="returns&exchange.html">Returns and Exchange Policies</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="Deliveries.html">Deliviey Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="NoCopyright.html">Copyright Rules</a></p>
+</td><td>
+
+</td></tr></table>
+
+<h2>Social Media</h2>
+<p><a href="https://www.facebook.comFacebook">FaceBook</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com">Youtube</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/www.instagram.comInstagram">Instagram</a></p>
+</div>
+
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-au">
+<head>
+    <title>Returns and Exchange Policies</title>
+    <meta charset="UTF-8">
+<link rel="stylesheet" href="css/web_style.css">
+</head>
+
+<body>
+
+<div class="myLogo">
+<a href="index.html"><img src="images/TipToe_Soles_Logo_colour.png" alt="TipToe Logo" width="150" height="150"></a>
+</div>
+
+<div class="myHeader">
+<img src="images/TipToe_1665x150.png" alt="TipToe Banner" width="1665" height="150">
+</div>
+
+<div class="statement">
+    TipToe Soles provide affordable footwear branh in Australia and around the world
+</div>
+
+<div class="left_panel">
+<h1>MENU</h1>
+  <a href="AboutUs.html">About Us</a><br>
+  <a href="ContactUs.html">Contact Us</a><br>
+  <button class="dropdown-btn">Products &nbsp;&nbsp;&nbsp;&#9660;</button>
+  <div class="dropdown-container">
+    <a href="men.html">Product 1: Men Shoes</a><p></p>
+    <a href="women.html">Product 2: Ladies shoes</a><p></p>
+  </div>
+  <a href="search.html">Search</a><br>
+  <a href="login.html">Login</a>
+</div>
+
+<div class="content2">
+<h2>Returns and Exchange Policies</h2>
+
+<div class="policyText">
+
+<p>
+    TipToe Soles offers FREE RETURNS for purchases over $60 within 28 days of the order date.
+    Customers are encouraged to use registered post when returning items, as TipToe Soles
+    cannot accept responsibility for returned parcels that are lost in transit.
+</p>
+
+<h3>Conditions for Returns</h3>
+
+<ul>
+    <li>Returns must be made within 28 days of the order date.</li>
+    <li>Items must be unworn and in original condition.</li>
+    <li>All original tags must remain attached.</li>
+    <li>Shoes must be returned in their original shoe box.</li>
+    <li>Products showing signs of wear, marks, or damage will not be accepted.</li>
+    <li>Postage costs are non-refundable.</li>
+</ul>
+
+<p>
+    TipToe Soles reserves the right to reject returns that do not meet the above conditions.
+</p>
+
+<h3>Exchanges</h3>
+
+<p>
+    Exchanges may be arranged for eligible items returned within the specified return period,
+    provided all return conditions are satisfied.
+</p>
+</div>
+
+</div>
+
+<div class="myFooter"><table align="center"><tr><td>
+
+<h2>Organization Policies</h2>
+<p><a href="returns&exchange.html">Returns and Exchange Policies</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="Deliveries.html">Deliviey Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="NoCopyright.html">Copyright Rules</a></p>
+</td><td>
+
+</td></tr></table>
+
+<h2>Social Media</h2>
+<p><a href="https://www.facebook.comFacebook">FaceBook</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com">Youtube</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/www.instagram.comInstagram">Instagram</a></p>
+</div>
+
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
